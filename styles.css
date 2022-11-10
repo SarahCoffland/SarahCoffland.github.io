@@ -1,0 +1,38 @@
+
+body, html {
+  /*for full page size */
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  /* for full page size */
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#About {background-color: green;}
+#Resume {background-color: blue;}
+#Projects {background-color: orange;}
