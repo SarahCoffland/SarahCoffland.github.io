@@ -2,7 +2,25 @@ h1, html {
   /*for full page size */
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/Poppins-Light.ttf);
+}
+
+* {
+  font-family: poppins;
+}
+
+h2 {
+  font-family: poppins;
+  color: pink;
+  font-size: 40px;
+}
+h3 {
+  font-family: poppins;
 }
 
 body, html {
@@ -43,17 +61,3 @@ body, html {
 #Resume {background-color: black;}
 #Projects {background-color: black;}
 
-/*
-@font-face: {
-  font-family: poppins;
-  src: url(https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/Poppins-Light.ttf);
-}
-h2 {
-  font-family: poppins;
-  color: pink;
-  font-size: 40px;
-}
-h3 {
-  font-family: poppins;
-}
-*/
