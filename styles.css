@@ -1,10 +1,12 @@
-h1, html {
+h1, h2, h3 {
   /*for full page size */
   height: 100%;
   margin: 0;
   font-family: poppins;
+  color: pink;
 }
 
+/*
 @font-face {
   font-family: poppins;
   src: url(Poppins-Light.ttf);
@@ -14,21 +16,16 @@ h1, html {
   font-family: poppins;
 }
 
-h2 {
-  font-family: poppins;
-  color: pink;
-  font-size: 40px;
-}
-h3 {
-  font-family: poppins;
-}
-
+*/
+/*
 body, html {
   /*for full page size */
+  /*
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+*/
 
 /* Style tab links */
 .tablink {
