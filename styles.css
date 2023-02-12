@@ -6,31 +6,26 @@ h1, h2, h3 {
   color: black;
 }
 
-/*
 @font-face {
   font-family: poppins;
   src: url(Poppins-Light.ttf);
 }
-*/
-
+/*
 * {
   font-family: poppins;
 }
+*/
 
-/*
-body, html {
+body {
   /*for full page size */
-  /*
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: poppins;
 }
-*/
 
 /* Style tab links */
 .tablink {
-  background-color: white;
-  color: white;
+  background-color: inherit;
   float: left;
   border: none;
   outline: none;
@@ -43,6 +38,10 @@ body, html {
 .tablink:hover {
   background-color: #777;
   transition: cubic-bezier();
+}
+
+.tab button.active {
+  background-color: #ccc;
 }
 
 /* Style the tab content */
