@@ -63,6 +63,7 @@ body {
 .tabcontent {
   color: black;
   display: none;
+  opacity: .5;
   padding: 24px 300px;
   /* for full page size */
   height: 100%;
@@ -80,8 +81,8 @@ img.resize {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 23%;
-  padding: 5px;
+  width: 20%;
+  padding: 2px;
 }
 
 .bicolumn {
