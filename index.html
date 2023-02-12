@@ -52,10 +52,12 @@
   			}
   			tablinks = document.getElementsByClassName("tablink");
   			for (i = 0; i < tablinks.length; i++) {
-    				tablinks[i].style.backgroundColor = "";
+    				//tablinks[i].style.backgroundColor = "";
+					tablinks[i].className = tablinks[i].className.replace(" active", "");
   			}
   			document.getElementById(pageName).style.display = "block";
   			elmnt.style.backgroundColor = color;
+			evt.currentTarget.className += " active";
 		}
 
 		document.getElementById("defaultOpen").click();
