@@ -47,6 +47,10 @@ body {
   float: right;
 }
 
+.alignCenter {
+  text-align: center;
+}
+
 /* Style the tab content */
 .tabcontent {
   color: black;
