@@ -26,6 +26,7 @@
 			<h4>Masters of Science in Computer Science</h4> 
 			<p class="alignLeft">Western Washington University</p>
 			<p class="alignRight">2022 - 2024</p>
+			<div style="clear: both;"></div>
 			<h4>Study abroad</h4>
 			<p>Universidad de Murcia</p>
 			<h4>Bachelors of Arts in Linguistics</h4>
@@ -55,11 +56,11 @@
   			tablinks = document.getElementsByClassName("tablink");
   			for (i = 0; i < tablinks.length; i++) {
     				tablinks[i].style.backgroundColor = "";
-					tablinks[i].className = tablinks[i].className.replace(" active", ""); //WRONG?
+					//tablinks[i].className = tablinks[i].className.replace(" active", ""); //WRONG?
   			}
   			document.getElementById(pageName).style.display = "block";
   			elmnt.style.backgroundColor = color;
-			evt.currentTarget.className += " active";
+			//evt.currentTarget.className += " active";
 		}
 
 		document.getElementById("defaultOpen").click();
