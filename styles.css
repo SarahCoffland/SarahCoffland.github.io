@@ -16,11 +16,16 @@ body {
   height: 100%;
   margin: 0;
   font-family: poppins;
+  background-image: url('https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/cloudtree_background.png?raw=true');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Style tab links */
 .tablink {
   background-color: inherit;
+  opacity: 0.5;
   float: left;
   transition: 0.3s;
   border: none;
@@ -33,6 +38,7 @@ body {
 
 .tablink:hover {
   background-color: #777;
+  opacity: .5;
 }
 
 .tab button.active {
@@ -57,9 +63,39 @@ body {
 .tabcontent {
   color: black;
   display: none;
-  padding: 80px 300px;
+  padding: 24px 300px;
   /* for full page size */
   height: 100%;
+}
+
+a {
+  color: #292929;
+}
+
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.bicolumn {
+  float: left;
+  width: 50%;
+  padding: 5px
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  color: #777;
 }
 
 #Home {background-color: white;}
