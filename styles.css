@@ -3,7 +3,7 @@ h1, h2, h3 {
   height: 100%;
   margin: 0;
   font-family: poppins;
-  color: pink;
+  color: black;
 }
 
 /*
@@ -11,12 +11,12 @@ h1, h2, h3 {
   font-family: poppins;
   src: url(Poppins-Light.ttf);
 }
+*/
 
 * {
   font-family: poppins;
 }
 
-*/
 /*
 body, html {
   /*for full page size */
@@ -29,7 +29,7 @@ body, html {
 
 /* Style tab links */
 .tablink {
-  background-color: #e7f5fe;
+  background-color: white;
   color: white;
   float: left;
   border: none;
@@ -46,15 +46,15 @@ body, html {
 
 /* Style the tab content */
 .tabcontent {
-  color: white;
+  color: black;
   display: none;
   padding: 100px 20px;
   /* for full page size */
   height: 100%;
 }
 
-#Home {background-color: black;}
-#About {background-color: black;}
-#Resume {background-color: black;}
-#Projects {background-color: black;}
+#Home {background-color: white;}
+#About {background-color: white;}
+#Resume {background-color: white;}
+#Projects {background-color: white;}
 
