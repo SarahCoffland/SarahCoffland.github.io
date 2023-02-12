@@ -39,11 +39,19 @@ body {
   background-color: #535353;
 }
 
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
+
 /* Style the tab content */
 .tabcontent {
   color: black;
   display: none;
-  padding: 80px 200px;
+  padding: 80px 300px;
   /* for full page size */
   height: 100%;
 }

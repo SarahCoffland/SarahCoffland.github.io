@@ -24,7 +24,8 @@
   			<h2>Resume</h2>
 			<h3>Education</h3>
 			<h4>Masters of Science in Computer Science</h4> 
-			<p>Western Washington University</p>
+			<p class="alignLeft">Western Washington University</p>
+			<p class="alignRight">2022 - 2024</p>
 			<h4>Study abroad</h4>
 			<p>Universidad de Murcia</p>
 			<h4>Bachelors of Arts in Linguistics</h4>
@@ -35,6 +36,7 @@
 			<p></p>
 			<h3>Current Affiliations</h3>
 			<p></p>
+			<div style="clear: both;"></div>
 		</div>
 
 		<div id="Projects" class="tabcontent">
@@ -52,8 +54,8 @@
   			}
   			tablinks = document.getElementsByClassName("tablink");
   			for (i = 0; i < tablinks.length; i++) {
-    				//tablinks[i].style.backgroundColor = "";
-					tablinks[i].className = tablinks[i].className.replace(" active", "");
+    				tablinks[i].style.backgroundColor = "";
+					tablinks[i].className = tablinks[i].className.replace(" active", ""); //WRONG?
   			}
   			document.getElementById(pageName).style.display = "block";
   			elmnt.style.backgroundColor = color;
