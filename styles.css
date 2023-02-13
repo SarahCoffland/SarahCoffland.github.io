@@ -11,6 +11,10 @@ h1, h2, h3 {
   src: url(Poppins-Light.ttf);
 }
 
+.mainpage {
+  text-align:center
+}
+
 body {
   /*for full page size */
   height: 100%;
