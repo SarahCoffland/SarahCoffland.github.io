@@ -30,6 +30,7 @@ body {
 /* Style tab links */
 .tablink {
   background-color: inherit;
+  opacity: .5;
   float: left;
   transition: 0.3s;
   border: none;
