@@ -56,14 +56,13 @@ body {
 
 .alignCenter {
   text-align: left;
-  padding-top: 50%;
+  top: 75%;
 }
 
 /* Style the tab content */
 .tabcontent {
   color: black;
   display: none;
-  opacity: .5;
   padding: 24px 300px;
   /* for full page size */
   height: 100%;
