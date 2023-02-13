@@ -12,7 +12,8 @@ h1, h2, h3 {
 }
 
 .mainpage {
-  text-align: center;
+  text-align: left;
+  top: 75%;
 }
 
 body {
@@ -55,8 +56,7 @@ body {
 }
 
 .alignCenter {
-  text-align: left;
-  top: 75%;
+  text-align: center;
 }
 
 /* Style the tab content */
