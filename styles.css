@@ -72,6 +72,10 @@ body {
   height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: #292929;
 }
@@ -99,7 +103,6 @@ img.resize {
   content: "";
   clear: both;
   display: table;
-  color: #777;
 }
 
 #Home {background-color: white;}
