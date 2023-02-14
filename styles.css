@@ -21,13 +21,14 @@ p.small {
 p.big {
   line-height: 1.8;
 }
-
+/*
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #ffffff;
   padding-left: 30%;
 }
+*/
 
 hr {
   padding: 0 !important;
@@ -57,7 +58,7 @@ body {
 }
 
 /* Style tab links */
-.tablink {
+.tab {
   background-color: inherit;
   opacity: .5;
   float: left;
