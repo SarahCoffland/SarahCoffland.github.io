@@ -16,7 +16,8 @@ h1, h2, h3 {
   float: left;
   position:absolute;
   top: 50%;
-  font-size: 500%;
+  font-size: 450%;
+  padding: 14px 16px;
 }
 
 body {
@@ -91,8 +92,8 @@ a {
 }
 
 img.resize {
-  max-width:85%;
-  max-height:85%;
+  max-width:80%;
+  max-height:80%;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
