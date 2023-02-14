@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 .twentysixpoint {line-height: 26pt;}
-.threepoint {line-height: 3pt;}
+.onepoint {line-height: 1pt;}
 
 p.small {
   line-height: 0.8;
@@ -34,7 +34,7 @@ p.big {
   text-align: left;
   float: left;
   position:absolute;
-  top: 50%;
+  top: 55%;
   font-size: 450%;
   padding-left: 16px;
 }
