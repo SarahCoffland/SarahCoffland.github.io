@@ -26,7 +26,6 @@ p.big {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #ffffff;
-  fill-opacity: .5;
   padding-left: 30%;
 }
 
