@@ -66,17 +66,19 @@ body {
 .tabcontent {
   color: black;
   display: none;
-  padding: 24px 300px;
+  padding: 0px 0px;
   /* for full page size */
   height: 100%;
 }
+
+/* Style the resume tab content */
+.resumetabcontent {
+  padding: 24px 300px;
+}
+
  /* about page styling */
 .abouttabcontent {
-  color: black;
-  display: none;
   padding: 24px 150px;
-  /* for full page size */
-  height: 100%;
 }
 
 * {
