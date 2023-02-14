@@ -68,6 +68,14 @@ body {
   /* for full page size */
   height: 100%;
 }
+ /* about page styling */
+.abouttabcontent {
+  color: black;
+  display: none;
+  padding: 24px 150px;
+  /* for full page size */
+  height: 100%;
+}
 
 * {
   box-sizing: border-box;
@@ -78,8 +86,8 @@ a {
 }
 
 img.resize {
-  max-width:75%;
-  max-height:75%;
+  max-width:85%;
+  max-height:85%;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
