@@ -11,13 +11,16 @@ h1, h2, h3 {
   src: url(Poppins-Light.ttf);
 }
 
+.twentysixpoint {line-height: 26pt;}
+.threepoint {line-height: 3pt;}
+
 .mainpage {
   text-align: left;
   float: left;
   position:absolute;
   top: 50%;
   font-size: 450%;
-  padding: 0px 16px;
+  padding-left: 16px;
 }
 
 body {
