@@ -29,6 +29,13 @@ p.big {
   padding-left: 30%;
 }
 
+hr {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 50%;
+  border-top: 6px solid #000000;
+}
+
 .mainpage {
   text-align: left;
   float: left;
