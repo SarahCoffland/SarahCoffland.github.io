@@ -13,8 +13,9 @@ h1, h2, h3 {
 
 .mainpage {
   text-align: left;
+  float: left;
   position:absolute;
-  top: 75%;
+  top: 50%;
   font-size: 500%;
 }
 
