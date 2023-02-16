@@ -11,6 +11,10 @@ h1, h2, h3 {
   src: url(Poppins-Light.ttf);
 }
 
+.extraPadding {
+  padding: 0px 150px;
+}
+
 .tablink {
   overflow: hidden;
   background-color: #ffffff;
@@ -85,17 +89,8 @@ body {
   height: 100%;
 }
 
-/* Style the resume tab content */
-.resumetabcontent {
-  padding: 24px 300px;
-}
-
  /* about page styling */
 .abouttabcontent {
-  padding: 24px 150px;
-}
-
-projecttabcontent {
   padding: 24px 150px;
 }
 
