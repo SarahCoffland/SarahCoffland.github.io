@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="styles.css">
 		<title>Sarah Coffland</title>
 	</head>
+	
 	<body>
 		<div class="tab">
 			<button class="tablink" onclick="openPage('Home', this, 'white')" id= "defaultOpen">Home</button>
@@ -13,8 +14,9 @@
 		</div>
 
 		<div id="Home" class="tabcontent">
-			<div class="mainpage"></div>
-				<p class="onepoint"></p>
+			<div class="mainpage">
+				<p class="onepoint">
+					<div style="clear: both;"></div>
 					<hr width="50%" noshade="" color="black" size="4px">
 					SARAH M. COFFLAND
 					<hr width="50%" noshade="" color="black" size="4px" class="onepoint">
@@ -26,7 +28,6 @@
 		<div id="About" class="tabcontent">
 			<div class="abouttabcontent">
 				<h2 class="alignCenter">ABOUT</h2>
-				<hr width="50%" noshade="" color="black" size="2px">
 				<p class="twentysixpoint"> </p>
 				<div class="row">
 					<div class="bicolumn">
@@ -50,7 +51,6 @@
 		<div id="Resume" class="tabcontent">
 			<div class="resumetabcontent">
 				<h2 class="alignCenter">RESUME</h2>
-				<hr class="alignCenter" width="50%" noshade="" color="black" size="2px">
 				<div style="clear: both;"></div>
 				<h3>Education</h3>
 				<h4 class="alignLeft">Masters of Science in Computer Science</h4> 
@@ -117,9 +117,11 @@
 		</div>
 
 		<div id="Projects" class="tabcontent">
+       <div class="abouttabcontent">
   			<h2 class="alignCenter">PROJECTS</h2>
-		  	<hr width="50%" noshade="" color="black" size="2px">
-		</div>
+		  </div>
+    </div>
+
 
 		<script>
 		function openPage(pageName,elmnt,color) {
@@ -140,4 +142,5 @@
 		document.getElementById("defaultOpen").click();
 		</script>
 	</body>
+
 </html>

@@ -11,37 +11,24 @@ h1, h2, h3 {
   src: url(Poppins-Light.ttf);
 }
 
-.twentysixpoint {line-height: 26pt;}
-.onepoint {line-height: 1pt;}
-
-p.small {
-  line-height: 0.8;
-}
-
-p.big {
-  line-height: 1.8;
-}
-/*
-.tab {
+.tablink {
   overflow: hidden;
-  border: 1px solid #ccc;
   background-color: #ffffff;
-  padding-left: 30%;
+  color: black;
+  border: none;
+  outline: none;
+  padding: 1% 5%;
 }
-*/
 
 hr {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
   width: 50%;
   border-top: 4px solid #000000;
-  text-align: center;
 }
 
 .mainpage {
-  text-align: left;
-  /*float: left;*/
-  position:absolute;
+  position: absolute;
   top: 55%;
   font-size: 450%;
   padding-left: 16px;
@@ -62,32 +49,17 @@ body {
 .tab {
   background-color: #ffffff;
   opacity: .5;
-  float: left;
-  transition: 0.3s;
   border: none;
   outline: none;
   cursor: pointer;
-  /*padding: 14px 16px;*/
-  font-size: 17px;
-  width: 10%;
-}
-
-.tablink {
-  background-color: #ffffff;
-  opacity: .5;
-  overflow: hidden;
-  float: left;
-  transition: 0.3s;
-  cursor: pointer;
-  padding-left: 30%;
-  /*padding: 14px 16px;*/
-  font-size: 17px;
+  font-size: 20 px;
   width: 100%;
+  padding-left: 30%;
 }
 
 .tablink:hover {
   background-color: #777;
-  opacity: .5;
+  opacity: 1;
 }
 
 .alignLeft {
@@ -123,6 +95,10 @@ body {
   padding: 24px 150px;
 }
 
+projecttabcontent {
+  padding: 24px 150px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -155,8 +131,8 @@ img.resize {
   clear: both;
   display: table;
 }
-/*
-#Home {} */
+
+#Home {background-color: white;}
 #About {background-color: white;}
 #Resume {background-color: white;}
 #Projects {background-color: white;}
