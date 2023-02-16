@@ -35,7 +35,7 @@ hr {
   margin: 0 !important;
   width: 50%;
   border-top: 4px solid #000000;
-  text-align: center;
+  text-align: center !important;
 }
 
 .mainpage {
@@ -62,7 +62,7 @@ body {
 .tab {
   background-color: #ffffff;
   opacity: .5;
-  float: left;
+  float: center;
   transition: 0.3s;
   border: none;
   outline: none;
@@ -76,7 +76,7 @@ body {
   background-color: #ffffff;
   opacity: .5;
   overflow: hidden;
-  float: left;
+  float: center;
   transition: 0.3s;
   cursor: pointer;
   padding-left: 30%;
