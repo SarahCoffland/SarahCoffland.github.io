@@ -34,7 +34,8 @@ hr {
   padding: 0 !important;
   margin: 0 !important;
   width: 50%;
-  border-top: 5px solid #000000;
+  border-top: 4px solid #000000;
+  text-align: center;
 }
 
 .mainpage {
