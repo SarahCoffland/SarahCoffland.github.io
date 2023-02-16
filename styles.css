@@ -34,7 +34,7 @@ hr {
   padding: 0 !important;
   margin: 0 !important;
   width: 50%;
-  border-top: 6px solid #000000;
+  border-top: 5px solid #000000;
 }
 
 .mainpage {
@@ -59,14 +59,16 @@ body {
 
 /* Style tab links */
 .tab {
-  background-color: inherit;
+  background-color: #ffffff;
   opacity: .5;
+  overflow: hidden;
   float: left;
   transition: 0.3s;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding-left: 30%;
+  /*padding: 14px 16px;*/
   font-size: 17px;
   width: 10%;
 }
