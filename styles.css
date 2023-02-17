@@ -58,6 +58,7 @@ body {
   cursor: pointer;
   font-size: 20 px;
   width: 100%;
+  position: sticky;
   padding-left: 30%;
 }
 
