@@ -21,6 +21,7 @@ h1, h2, h3 {
   color: black;
   border: none;
   outline: none;
+  position: sticky;
   padding: 1% 5%;
 }
 
