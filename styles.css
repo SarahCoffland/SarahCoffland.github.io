@@ -4,6 +4,8 @@ h1, h2, h3 {
   margin: 0;
   font-family: poppins;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -57,7 +59,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 20 px;
+  font-size: 30 px;
   width: 100%;
   position: sticky;
   padding-left: 30%;
@@ -98,6 +100,11 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 a {
