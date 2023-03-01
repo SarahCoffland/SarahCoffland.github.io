@@ -161,7 +161,7 @@ img.resize {
 
 .tricolumn {
   float: left;
-  width: 29.33%;
+  width: 20%;
   padding: 0px;
 }
 
@@ -180,9 +180,11 @@ img.resize {
 .white-box {
   background-color: white;
   color: black;
-  width: 80%;
+  width: 100%;
   margin-top: 800px;
   padding: 80px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* Style tab links */
