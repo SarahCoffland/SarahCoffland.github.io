@@ -148,7 +148,7 @@ img.resize {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
+  float: center;
   width: 25%;
   padding: 5px;
 }
@@ -160,9 +160,10 @@ img.resize {
 }
 
 .tricolumn {
-  float: left;
+  float: center;
   width: 33.3%;
   padding: 5px;
+  margin: 10px;
 }
 
 /* Clear floats after image containers */
