@@ -123,6 +123,10 @@ body {
   padding: 24px 150px;
 }
 
+.headingpadding {
+  padding: 8px 150px;
+}
+
 * {
   box-sizing: border-box;
 }
