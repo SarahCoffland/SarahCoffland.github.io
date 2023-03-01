@@ -50,7 +50,7 @@ h4 {
 hr {
   padding: 0;
   margin: 0;
-  width: 100%;
+  /*width: 100%;*/
   /*border-top: 4px solid #000000;*/
 }
 
@@ -69,7 +69,7 @@ body {
   background-image: url('https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/cloudtree_background.png?raw=true');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 100% auto;
+  background-size: 80% auto;
   /* background-size: cover; */
 }
 
@@ -161,7 +161,7 @@ img.resize {
 
 .tricolumn {
   float: left;
-  width: 33.3%;
+  width: 29.33%;
   padding: 0px;
 }
 
@@ -183,6 +183,16 @@ img.resize {
   width: 80%;
   margin-top: 800px;
   padding: 80px;
+}
+
+/* Style tab links */
+.boxtab {
+  background-color: #ffffff;
+  opacity: .5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
 }
 
 #Home {background-color: white;}
