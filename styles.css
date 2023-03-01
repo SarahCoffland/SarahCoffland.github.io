@@ -178,13 +178,13 @@ img.resize {
 }
 
 .white-box {
-  background-color: black;
+  background-color: white;
   color: black;
-  width: 100%;
-  margin-top: 800px;
+  width: 80%;
+  margin-top: 700px;
   padding: 80px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10%;
+  margin-right: 0%;
 }
 
 /* Style tab links */
@@ -195,6 +195,14 @@ img.resize {
   outline: none;
   cursor: pointer;
   width: 100%;
+}
+
+.homePageLinks {
+  color: #D3D3D3;
+  background-color: #777;
+  padding: 10px;
+  border: none;
+  font-size: 110%;
 }
 
 #Home {background-color: white;}
