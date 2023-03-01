@@ -72,6 +72,10 @@ body {
   background-size: cover;
 }
 
+.extraHeight {
+  line-height: 1.6;
+}
+
 /* Style tab links */
 .tab {
   background-color: #ffffff;
