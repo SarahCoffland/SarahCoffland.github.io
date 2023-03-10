@@ -59,10 +59,6 @@ hr {
   top: 65%;
   font-size: 450%;
   padding-left: 16px;
-  background-image: url('https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/cloudtree_background.png?raw=true');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% auto;
   
 }
 
@@ -122,6 +118,10 @@ body {
   padding: 0px 0px;
   /* for full page size */
   height: 100%;
+  background-image: url('https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/cloudtree_background.png?raw=true');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% auto;
 }
 
  /* about page styling */
