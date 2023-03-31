@@ -95,6 +95,10 @@ body {
   opacity: 1;
 }
 
+.tablink.active {
+  text-decoration: underline;
+}
+
 .alignLeft {
   float: left;
   padding: 0;
