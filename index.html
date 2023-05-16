@@ -5,16 +5,20 @@
 		<title>Sarah Coffland</title>
 	</head>
 	
-	<body>
-		<div class="tab">
-			<a href="/about.html">about me</a>
-			<button class="tablink" onclick="openPage('Home', this, 'white')" id= "defaultOpen">Home</button>
+	<body class="mainBody">
+		<div class="navBar">
+			<a href="/index.html" class="tablink">Home</a>
+			<a href="/about.html" class="tablink">About</a>
+			<a href="/resume.html" class="tablink">Resume</a>
+			<a href="/projects.html" class="tablink">Projects</a>
+			<!--<button class="tablink" onclick="openPage('Home', this, 'white')" id= "defaultOpen">Home</button>
 			<button class="tablink" onclick="openPage('About', this, 'white')">About</button>
 			<button class="tablink" onclick="openPage('Resume', this, 'white')">Resume</button>
 			<button class="tablink" onclick="openPage('Projects', this, 'white')">Projects</button>
+			-->
 		</div>
-
-		<div id="Home" class="tabcontent">
+		
+		<!--<div id="Home" class="tabcontent"> -->
 				<div class="mainpage">
 					<div style="clear: both;"></div>
 					<div style="position:relative; left:25%;">
@@ -31,7 +35,8 @@
 					<div class="white-box">
 						<div class="alignCenter">
 							<h3>About Me</h3>
-							<button class="tablink" onclick="openPage('About', this, 'white')">Learn More</button>
+							<a href="/resume.html" class="tablink">Learn More</a>
+							<!--<button class="tablink" onclick="openPage('About', this, 'white')">Learn More</button> -->
 						</div>
 					</div>
 				</div>
@@ -39,7 +44,8 @@
 					<div class="white-box">
 						<div class="alignCenter">
 							<h3>Resume</h3>
-							<button class="tablink" onclick="openPage('Resume', this, 'white')">Learn More</button>
+							<a href="/resume.html" class="tablink">Learn More</a>
+							<!-- <button class="tablink" onclick="openPage('Resume', this, 'white')">Learn More</button>-->
 						</div>
 					</div>
 				</div>
@@ -47,13 +53,14 @@
 					<div class="white-box">
 						<div class="alignCenter">
 							<h3>Projects</h3>
-							<button class="tablink" onclick="openPage('Projects', this, 'white')">Learn More</button>
+							<a href="/projects.html" class="tablink">Learn More</a>
+							<!-- <button class="tablink" onclick="openPage('Projects', this, 'white')">Learn More</button> -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
+		<!--</div>
+		
 		<div id="About" class="tabcontent">
 			<br>
 			<div class="headingpadding">
@@ -63,11 +70,12 @@
 					<hr width="100%" noshade="" color="black" size="1px">
 				</div>
 			</div>
-			<div class="abouttabcontent">
+			<div class="abouttabcontent">-->
 				<!--<h2 class="alignCenter">ABOUT ME</h2>
 				<div style="position:relative; left:25%;">
 					<hr width="50%" noshade="" color="black" size="1px">
 				</div>-->
+				<!--
 				<div class="row">
 					<div class="bicolumn">
 						<img class="resize" src="https://raw.githubusercontent.com/SarahCoffland/SarahCoffland.github.io/main/Henry%20and%20I.webp" alt="Profile photo">
@@ -101,10 +109,12 @@
 				</div>
 			</div>
 			<div class="abouttabcontent">
+				-->
 				<!-- <h2 class="alignCenter">RESUME</h2>
 				<div style="position:relative; left:25%;">
 					<hr width="25%" noshade="" color="black" size="1px">
 				</div> -->
+				<!--
 				<div class="extraPadding">
 					<div style="clear: both;"></div>
 					<h3>Education</h3>
@@ -206,10 +216,12 @@
 				</div>
 			</div>
 			<div class="abouttabcontent">
+				-->
 				<!-- <h2 class="alignCenter">PROJECTS</h2>
 				<div style="position:relative; left:25%;">
 					<hr width="25%" noshade="" color="black" size="1px">
 				</div> -->
+				<!--
 				<h3 class="alignCenter">This Website</h3>
 				<p></p>
 				<h3 class="alignCenter">GCAM Emulation</h3>
@@ -232,6 +244,7 @@
 				<p></p>
 			</div>
 		</div>
+		-->
 
 		<script>
 		function openPage(pageName,elmnt,color) {

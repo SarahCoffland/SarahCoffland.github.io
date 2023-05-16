@@ -32,6 +32,14 @@ h4 {
   src: url(Poppins-Light.ttf);
 }
 
+.navBar {
+  background-color: white;
+  opacity: 50%;
+  text-align: center;
+  padding: 2% 5%;
+  font-size: 15px;
+}
+
 .extraPadding {
   padding: 0px 150px;
 }
@@ -63,6 +71,15 @@ hr {
 }
 
 body {
+  /*for full page size */
+  height: 100%;
+  margin: 0;
+  font-family: poppins;
+  background-color: white;
+  /* background-size: cover; */
+}
+
+.mainBody {
   /*for full page size */
   height: 100%;
   margin: 0;
@@ -148,6 +165,8 @@ p {
 
 a {
   color: #292929;
+  text-decoration-line: none;
+  text-align: center;
 }
 
 img.resize {
