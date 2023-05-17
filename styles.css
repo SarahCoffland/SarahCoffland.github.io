@@ -36,7 +36,7 @@ h4 {
   background-color: white;
   opacity: 50%;
   text-align: center;
-  padding: 2% 5%;
+  padding: 1% 4%;
   font-size: 15px;
 }
 
@@ -51,7 +51,18 @@ h4 {
   border: none;
   outline: none;
   position: sticky;
-  padding: 2% 5%;
+  padding: 1% 4%;
+  font-size: 15px;
+}
+
+.activeTablink {
+  overflow: hidden;
+  background-color: #d6d6d6;
+  color: black;
+  border: none;
+  outline: none;
+  position: sticky;
+  padding: 1% 4%;
   font-size: 15px;
 }
 
