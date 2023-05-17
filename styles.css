@@ -1,5 +1,4 @@
 h1, h2 {
-  /*for full page size */
   height: 100%;
   font-family: poppins;
   color: black;
@@ -8,7 +7,6 @@ h1, h2 {
 }
 
 h3 {
-  /*for full page size */
   height: 100%;
   font-size: 35px;
   font-family: poppins;
@@ -18,7 +16,6 @@ h3 {
 }
 
 h4 {
-  /*for full page size */
   height: 100%;
   font-size: 20px;
   color: black;
@@ -34,10 +31,19 @@ h4 {
 
 .navBar {
   background-color: white;
-  opacity: 50%;
+  opacity: 60%;
   text-align: center;
   padding: 1% 4%;
   font-size: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s;
+  z-index: 20;
+}
+
+.navBar-scrolled {
+  opacity: 90%;
 }
 
 .extraPadding {
@@ -46,6 +52,7 @@ h4 {
 
 .tablink {
   overflow: hidden;
+  margin: none;
   background-color: #ffffff;
   color: black;
   border: none;
@@ -69,8 +76,6 @@ h4 {
 hr {
   padding: 0;
   margin: 0;
-  /*width: 100%;*/
-  /*border-top: 4px solid #000000;*/
 }
 
 .mainpage {
@@ -82,16 +87,17 @@ hr {
 }
 
 body {
-  /*for full page size */
   height: 100%;
-  margin: 0;
+  margin-top: 4%;
   font-family: poppins;
   background-color: white;
-  /* background-size: cover; */
+}
+
+.background {
+  background-color: grey;
 }
 
 .mainBody {
-  /*for full page size */
   height: 100%;
   margin: 0;
   font-family: poppins;
@@ -99,32 +105,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100% auto;
-  /* background-size: cover; */
 }
 
 .extraHeight {
   line-height: 1.8;
 }
 
-/* Style tab links */
-.tab {
-  background-color: #ffffff;
-  opacity: .5;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 100%;
-  position: sticky;
-  padding-left: 30%;
-}
-
 .tablink:hover {
   background-color: #777;
   opacity: 1;
-}
-
-.tablink.active {
-  text-decoration: underline;
 }
 
 .alignLeft {
@@ -143,22 +132,15 @@ body {
   text-align: center;
 }
 
-/* Style the tab content */
 .tabcontent {
   color: black;
   display: none;
   padding: 0px 0px;
-  /* for full page size */
-  height: 100%;/*
-  background-image: url('https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/cloudtree_background.png?raw=true');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% auto;*/
+  height: 100%;
 }
 
- /* about page styling */
 .abouttabcontent {
-  padding: 24px 150px;
+  padding: 0px 150px;
 }
 
 .headingpadding {
@@ -178,6 +160,8 @@ a {
   color: #292929;
   text-decoration-line: none;
   text-align: center;
+  margin: none;
+  padding: none;
 }
 
 img.resize {
@@ -185,7 +169,6 @@ img.resize {
   max-height:80%;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
   width: 25%;
@@ -204,7 +187,6 @@ img.resize {
   padding: 5px;
 }
 
-/* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
@@ -226,26 +208,63 @@ img.resize {
   margin-right: 0%;
 }
 
-/* Style tab links */
-.boxtab {
-  background-color: #ffffff;
-  opacity: .5;
-  border: none;
-  outline: none;
-  cursor: pointer;
+.gallery {
+  background-color: blue;
+  display: flex;
+	padding: 0px;
+	transition: .3s;
   width: 100%;
 }
 
-.homePageLinks {
-  color: #D3D3D3;
-  background-color: #777;
-  padding: 10px;
-  border: none;
-  font-size: 110%;
+.galleryColumn {
+  margin: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  overflow: hidden;
 }
 
-#Home {background-color: white;}
-#About {background-color: white;}
-#Resume {background-color: white;}
-#Projects {background-color: white;}
+.galleryThumb {
+  position: relative;
+  margin: 1%;
+  filter: grayscale(1);
+}
 
+.galleryThumb:hover {
+  transform: scale(1.1);
+	transition: .3s;
+  filter: grayscale(0);
+}
+
+.galleryLink {
+  margin: 2px;
+  overflow: hidden;
+}
+
+.galleryImage {
+  display: block;
+  width: 100%;
+  transition: .3s;
+}
+
+.galleryImage:hover {
+  transform: scale(1.1);
+	transition: .3s;
+  filter: grayscale(0);
+}
+
+.galleryLink {
+
+}
+
+.galleryLink:hover {
+
+}
+
+/*
+#Home {background-color: white;}
+#About {background-color: lightgray;}
+#Resume {background-color: lightgray;}
+#Projects {background-color: lightgray;}
+*/
