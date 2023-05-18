@@ -6,6 +6,11 @@ h1, h2 {
   padding: 0;
 }
 
+* {
+  font-family: poppins;
+  src: url(Poppins-Light.ttf);
+}
+
 h3 {
   height: 100%;
   font-size: 35px;
@@ -33,7 +38,7 @@ h4 {
   background-color: white;
   opacity: 60%;
   text-align: center;
-  padding: 1% 4%;
+  padding: 0.875% 4%;
   font-size: 15px;
   position: fixed;
   top: 0;
@@ -209,7 +214,6 @@ img.resize {
 }
 
 .gallery {
-  background-color: blue;
   display: flex;
 	padding: 0px;
 	transition: .3s;
@@ -218,23 +222,17 @@ img.resize {
 
 .galleryColumn {
   margin: none;
-  background-color: white;
-  display: flex;
   flex-direction: column;
   width: 25%;
   overflow: hidden;
+  display: flex;
 }
 
 .galleryThumb {
   position: relative;
   margin: 1%;
-  filter: grayscale(1);
-}
-
-.galleryThumb:hover {
-  transform: scale(1.1);
-	transition: .3s;
-  filter: grayscale(0);
+  overflow: hidden;
+  width: 100%;
 }
 
 .galleryLink {
@@ -246,6 +244,8 @@ img.resize {
   display: block;
   width: 100%;
   transition: .3s;
+  filter: grayscale(1);
+
 }
 
 .galleryImage:hover {
@@ -260,6 +260,21 @@ img.resize {
 
 .galleryLink:hover {
 
+}
+
+.filterBar {
+  background-color: white;
+  text-align: center;
+}
+
+button {
+  background-color: lightgrey;
+  padding: 1%;
+  outline-style: none;
+  outline-color: white;
+  color: black;
+  border: none;
+  outline: none;
 }
 
 /*
