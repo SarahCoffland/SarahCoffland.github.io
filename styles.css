@@ -245,7 +245,6 @@ img.resize {
   width: 100%;
   transition: .3s;
   filter: grayscale(1);
-
 }
 
 .galleryImage:hover {
