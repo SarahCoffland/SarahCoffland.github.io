@@ -1,0 +1,391 @@
+h1, h2 {
+  height: 100%;
+  font-family: poppins;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: poppins;
+  src: url(/Poppins-Light.ttf);
+  box-sizing: border-box;
+}
+
+h3 {
+  height: 100%;
+  font-size: 35px;
+  font-family: poppins;
+  color: #dc563f;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  height: 100%;
+  font-size: 20px;
+  color: white;
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(Poppins-Light.ttf);
+}
+
+.navBar {
+  background-color: rgb(8, 0, 60);
+  opacity: 60%;
+  text-align: center;
+  padding: 0.875% 4%;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s;
+  z-index: 20;
+}
+
+.navBar-scrolled {
+  opacity: 90%;
+}
+
+.extraPadding {
+  padding: 0px 150px;
+}
+
+.tablink {
+  overflow: hidden;
+  margin: none;
+  background-color:  rgb(8, 0, 60);
+  color: white;
+  border: none;
+  outline: none;
+  position: sticky;
+  padding: 1% 4%;
+  font-size: 15px;
+}
+
+.activeTablink {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  position: sticky;
+  padding: 1% 4%;
+  font-size: 15px;
+}
+
+#toggle-theme::after {
+    content: attr(data-content);
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  border-color: white;
+  background-color: white;
+}
+
+.mainpage {
+  position: absolute;
+  color: white;
+  top: 65%;
+  font-size: 450%;
+  padding-left: 16px;
+  
+}
+
+body {
+  height: 100%;
+  font-family: poppins;
+  background-color: rgb(35, 16, 139);
+}
+
+
+.background {
+  background-color: grey;
+}
+
+.mainBody {
+  height: 100%;
+  margin: 0;
+  font-family: poppins;
+  background-color: rgb(37, 13, 140);
+  background-image: url('Assets/images/dark-background.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% auto;
+}
+
+.otherBody {
+    height: 100%;
+    margin: 0;
+    font-family: poppins;
+    background-color: rgb(35, 16, 139);
+}
+
+.extraHeight {
+  line-height: 1.8;
+}
+
+.tablink:hover {
+  background-color: #dc563f;
+  color: white;
+  opacity: 1;
+}
+
+.alignLeft {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.alignRight {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 0px 0px;
+  height: 100%;
+}
+
+.abouttabcontent {
+  padding: 0px 150px;
+}
+
+.headingpadding {
+  padding: 10px 150px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+ul {
+    color: white;
+}
+
+img.resize {
+  max-width:80%;
+  max-height:80%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.bicolumn {
+  float: left;
+  width: 50%;
+  padding: 5px
+}
+
+.tricolumn {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.halfbr {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.white-box {
+  background-color: rgb(8, 0, 60);
+  color: white;
+  width: 80%;
+  margin-top: 700px;
+  padding: 80px;
+  margin-left: 10%;
+  margin-right: 0%;
+}
+
+.theme-button {
+  position: fixed;
+  z-index: 25;
+  background-color: transparent;
+}
+
+.gallery {
+  display: flex;
+	padding: 0px;
+	transition: .3s;
+  width: 100%;
+  filter: grayscale(0);
+}
+
+.gallery:hover {
+  filter: grayscale(0);
+}
+
+.galleryColumn {
+  margin: none;
+  flex-direction: column;
+  width: 25%;
+  overflow: hidden;
+  display: flex;
+}
+
+.galleryThumb {
+  position: relative;
+  margin: 2%;
+  overflow: hidden;
+  width: 93%;
+  transition: all 0.3s;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 5px 5px 5px rgb(6, 6, 61);
+  background-color: rgb(6, 6, 61);
+}
+
+.galleryThumb:hover img{
+  transform: scale(1.1);
+	transition: .3s;
+  filter: grayscale(0);
+  /* filter: brightness(50%); */
+  filter: blur(5px);
+  opacity: 0.5;
+}
+
+.margined {
+  padding-top: 4%;
+}
+
+.galleryLink {
+  margin: 2px;
+  overflow: hidden;
+}
+
+.galleryImage {
+  display: block;
+  width: 100%;
+  transition: .3s;
+}
+
+.galleryImage:hover {
+  transform: scale(1.1);
+	transition: .3s;
+  filter: grayscale(0);
+  filter: brightness(100%);
+  mix-blend-mode:normal;
+}
+
+.filterBar {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(8, 0, 60);
+  padding: 1%;
+  outline-style: none;
+  outline-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  opacity: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+    opacity: 100%;
+    /* filter: brightness(75%); */
+    background-color: #dc563f;
+    transition: all .3s;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
+  text-align: center;
+  margin: none;
+  padding: none;
+  position: relative;
+  transition: all 0.3s;
+}
+
+a span {
+  font-size: 110%;
+  font-weight: 700;
+  display: none;
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  /* padding: 10px; */
+  /* background-color: white; */
+  opacity: 90%;
+}
+
+a:hover span {
+  display: block;
+}
+
+.links {
+  text-decoration: underline;
+}
+
+footer {
+  position:absolute;
+  margin:0;
+  padding:0;
+  bottom:0;
+  left:0;
+  height: 10%;
+  width:100%;
+  display: none;
+  /*background-color: #F0F0F0;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  display: block;*/
+}
+
+.presentation-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Optional: Adjust height as needed */
+}
+
+iframe {
+  border: none;            /* Optional: Removes the border */
+}
+
+/*
+#Home {background-color: white;}
+#About {background-color: lightgray;}
+#Resume {background-color: lightgray;}
+#Projects {background-color: lightgray;}
+*/

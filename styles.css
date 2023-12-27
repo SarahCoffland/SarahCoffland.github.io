@@ -8,7 +8,7 @@ h1, h2 {
 
 * {
   font-family: poppins;
-  src: url(Poppins-Light.ttf);
+  src: url(/Assets/Poppins-Light.ttf);
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ h3 {
   height: 100%;
   font-size: 35px;
   font-family: poppins;
-  color: #808080;;
+  color: #979fc7; /* #b9c0e2 */
   margin: 0;
   padding: 0;
 }
@@ -48,6 +48,27 @@ h4 {
   z-index: 20;
 }
 
+.theme-button {
+  position: fixed;
+  z-index: 25;
+  background-color: transparent;
+}
+
+.theme-button:hover {
+  position: fixed;
+  z-index: 25;
+  background-color: rgb(224, 229, 243);
+  transition: 0.3s;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#toggle-theme {
+  pointer-events: auto; 
+}
+
 .navBar-scrolled {
   opacity: 90%;
 }
@@ -70,7 +91,7 @@ h4 {
 
 .activeTablink {
   overflow: hidden;
-  background-color: #d6d6d6;
+  background-color: rgb(204, 211, 230);
   color: black;
   border: none;
   outline: none;
@@ -82,6 +103,7 @@ h4 {
 hr {
   padding: 0;
   margin: 0;
+  color: black;
 }
 
 .mainpage {
@@ -92,11 +114,15 @@ hr {
   
 }
 
+#toggle-theme::after {
+  content: attr(data-content);
+}
+
 body {
   height: 100%;
-  margin-top: 4%;
   font-family: poppins;
   background-color: white;
+  margin: 0;
 }
 
 .background {
@@ -107,10 +133,14 @@ body {
   height: 100%;
   margin: 0;
   font-family: poppins;
-  background-image: url('https://github.com/SarahCoffland/SarahCoffland.github.io/blob/main/cloudtree_background.png?raw=true');
+  background-image: url('Assets/images/treetop-extended.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100% auto;
+}
+
+.margined {
+  padding-top: 4%;
 }
 
 .extraHeight {
@@ -118,7 +148,7 @@ body {
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: rgb(224, 229, 243);
   opacity: 1;
 }
 
@@ -136,6 +166,12 @@ body {
 
 .alignCenter {
   text-align: center;
+}
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tabcontent {
@@ -156,6 +192,7 @@ body {
 p {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 img.resize {
@@ -179,6 +216,7 @@ img.resize {
   float: left;
   width: 33.3%;
   padding: 5px;
+  top: 65%;
 }
 
 .row::after {
@@ -200,6 +238,13 @@ img.resize {
   padding: 80px;
   margin-left: 10%;
   margin-right: 0%;
+  /* border-style: solid; */
+  /* border-color: rgb(70, 155, 253); */
+  /* border-width: 2px; */
+}
+
+.links {
+  text-decoration: underline;
 }
 
 .gallery {
@@ -224,10 +269,16 @@ img.resize {
 
 .galleryThumb {
   position: relative;
-  margin: 1%;
+  margin: 2%;
   overflow: hidden;
-  width: 100%;
+  width: 93%;
   transition: all 0.3s;
+  box-shadow: 5px 5px 5px rgb(224, 229, 243);
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: white;
 }
 
 .galleryLink {
@@ -241,19 +292,13 @@ img.resize {
   transition: .3s;
 }
 
-.galleryImage:hover {
+.galleryThumb:hover img{
   transform: scale(1.1);
 	transition: .3s;
   filter: grayscale(0);
-  filter: brightness(75%);
-}
-
-.galleryLink {
-
-}
-
-.galleryLink:hover {
-
+  /* filter: brightness(50%); */
+  filter: blur(5px);
+  opacity: 0.5;
 }
 
 .filterBar {
@@ -262,17 +307,19 @@ img.resize {
 }
 
 button {
-  background-color: lightgrey;
+  background-color: rgb(224, 229, 243);
   padding: 1%;
   outline-style: none;
   outline-color: white;
+  opacity: 1;
   color: black;
   border: none;
   outline: none;
+  border-radius: 5px;
 }
 
 a {
-  color: #292929;
+  color: #000000;
   text-decoration-line: none;
   text-align: center;
   margin: none;
@@ -282,12 +329,15 @@ a {
 }
 
 a span {
+  font-size: 110%;
+  font-weight: 700;
   display: none;
   position: absolute;
-  bottom: 0;
+  bottom: 40%;
   width: 100%;
-  padding: 10px;
-  background: rgba(255,255,255,.8);
+  /* padding: 10px; */
+  /* background-color: white; */
+  opacity: 90%;
 }
 
 a:hover span {
@@ -310,6 +360,17 @@ footer {
   height: 70px;
   text-align: center;
   display: block;*/
+}
+
+.presentation-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100vh;           /* Optional: Adjust height as needed */
+}
+
+iframe {
+  border: none;            /* Optional: Removes the border */
 }
 
 /*

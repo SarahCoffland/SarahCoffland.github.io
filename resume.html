@@ -1,17 +1,20 @@
 <!doctype html>
 <html>
 	<head>
-		<link rel="stylesheet" href="styles.css">
+		<link id="theme-style" rel="stylesheet" href="styles.css">
         <script defer src="script.js"></script>
 		<title>Sarah Coffland</title>
+		<link rel="icon" href="gecko.png">
 	</head>
-	<body>
+	<body class="otherBody">
         <div class="navBar">
 			<a href="index.html" class="tablink">Home</a>
             <a href="about.html" class="tablink">About</a>
             <a href="resume.html" class="activeTablink">Resume</a>
             <a href="projects.html" class="tablink">Projects</a>
 		</div>
+		<button class="theme-button" id="toggle-theme" data-content="Dark Mode"></button>
+		<div class="margined">
         <div id="Resume">
 			<br>
 			<div class="headingpadding">
@@ -38,13 +41,15 @@
 					<div style="clear: both;"></div>
 					<p>Western Washington University</p>
 					<br>
-					<h3>Work Experince</h3>
+					<h3>Work Experience</h3>
                     <h4 class="alignLeft">GDI&A Intern</h4>
 					<h4 class="alignRight">2023</h4>
 					<div style="clear: both;"></div>
 					<p>Ford Motor Company</p>
 					<ul>
-						<li>Will join the Natural Language Processing Machine Learning team in the Global Data, Insights and Analytics division of Ford.</li>
+						<li>Join the Natural Language Processing Machine Learning team as part of the AI Advancement Center in the Global Data, Insights & Analytics division of Ford.</li>
+						<li>Conduct prompt engineering experiments, analyze results with BLEU scores.</li>
+						<li>Train models on company specific text data to accurately and succintly summarize domain specific content.</li>
 						<li>Training, tuning, optimizing, and deploying Deep Neural Networks for the task of Machine Translation.</li>
 				    </ul>
 					<h4 class="alignLeft">Graduate Research Assistant</h4>
@@ -100,32 +105,40 @@
 					<div style="clear: both;"></div>
 					<p>Provide one-on-one tutoring and mentoring to CS pre-majors about soft skills in tech, etc. </p>
 					<br>
+
+					<h3>Publications</h3>
+					<h4>2023</h4>
+					<ul>
+						<li>Sarah Coffland; Katie Christensen; Filip Jagodzinski; Brian Hutchinson, RoseNet: Predicting Energy Metrics of
+							Double InDel Mutants Using Deep Learning, 2023 Computational Structural Bioinformatics Workshop
+							(CSBW) at ACM-BCB, Accepted.</li>
+					</ul>  
 				</div>
+				<br>
 
 				<h3 class="alignCenter">Current Affiliations</h3>
 				<p></p>
 				<div class="alignCenter">
 					<div class="column">
-						<a target="_blank" href="https://www.wwu.edu/"><img src="WesternWashingtonUniversitySeal.png" alt="WWU Logo" style="width:50%"></a>
+						<a target="_blank" href="https://www.wwu.edu/"><img src="Assets/images/WesternWashingtonUniversitySeal.png" alt="WWU Logo" style="width:50%"></a>
 					</div>
 					<div class="column">
-						<a target="_blank" href="https://www.pnnl.gov/"><img src="pnnl_logo.png" alt="PNNL Logo" style="width:50%"></a>
+						<a target="_blank" href="https://www.pnnl.gov/"><img src="Assets/images/pnnl_logo.png" alt="PNNL Logo" style="width:50%"></a>
 					</div>
 					<div class="column">
-						<a target="_blank" href="https://fw.cs.wwu.edu/~hutchib2/hutchresearch.html"><img src="hr_logo_only.png" alt="Hutch Logo" style="width:50%"></a>
+						<a target="_blank" href="https://fw.cs.wwu.edu/~hutchib2/hutchresearch.html"><img src="Assets/images/hr_logo_only.png" alt="Hutch Logo" style="width:50%"></a>
 					</div>
 					<div class="column">
-						<a target="_blank" href="https://stc.wwu.edu/"><img src="STC Logo.png" alt="STC Logo" style="width:50%"></a>
+						<a target="_blank" href="https://stc.wwu.edu/"><img src="Assets/images/STC Logo.png" alt="STC Logo" style="width:50%"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<br> <br> <br> <br> <br> <br>
         </div>
-		
+	</div>
     </body>
 	<footer>
 		<p>Author: Sarah Coffland</p>
-		<p><a href="mailto:hege@example.com">cofflas@example.com</a></p>
 	</footer>
 </html>

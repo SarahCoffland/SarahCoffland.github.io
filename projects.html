@@ -1,18 +1,24 @@
 <!doctype html>
 <html>
 	<head>
-		<link rel="stylesheet" href="styles.css">
+		<link id="theme-style" rel="stylesheet" href="styles.css">
         <script defer src="script.js"></script>
 		<title>Sarah Coffland</title>
+        <link rel="icon" href="gecko.png">
 	</head>
-	<body>
+	<body class="otherBody">
+        <button class="theme-button" id="toggle-theme" data-content="Dark Mode" position="absolute"></button>
         <div class="navBar">
 			<a href="index.html" class="tablink">Home</a>
             <a href="about.html" class="tablink">About</a>
             <a href="resume.html" class="tablink">Resume</a>
             <a href="projects.html" class="activeTablink">Projects</a>
 		</div>
+		<!-- <button class="theme-button" id="toggle-theme" data-content="Dark Mode"></button> -->
+
         <div id="Projects">
+            <div class="margined">
+            
 			<br>
 			<div class="headingpadding">
 				<h2 padding-left="8px">PROJECTS</h2>
@@ -33,82 +39,96 @@
                 <div class="gallery" id="galleryID">
                     <div class="galleryColumn"> 
                         <div class="galleryThumb pp">
-                            <a href="/project.html">
-                                <img src="Screenshot 2023-05-25 202020.png" alt="Website Screenshot" class="galleryImage"> 
+                            <a href="https://github.com/SarahCoffland/SarahCoffland.github.io">
+                                <img src="Assets/images/Screenshot 2023-05-25 202020.png" alt="Website Screenshot" class="galleryImage"> 
                                 <span>This Website</span>
                             </a>
                         </div>
                         <div class="galleryThumb cp">
-                            <a href="/project.html">
-                                <img src="gcam_nn_1 (1).jpg" alt="GCAM Emulation" class="galleryImage">
-                                <span>GCAM Emulation</span>
+                            <a href="/project_gcam.html">
+                                <img src="Assets/images/scholarsweek23_ml_climate_gcam_page-0001.jpg" alt="Poster Session: GCAM Emulation" class="galleryImage">
+                                <span>Poster Session: GCAM Emulation</span>
                             </a>
                         </div>
                         <div class="galleryThumb tt">
                             <a href="/project.html">
-                                <img src="wwu_dsc.png" alt="Data Collection" class="galleryImage">
-                                <span>Data Collection</span>
+                                <img src="Assets/images/collect.png" alt="Data Collection" class="galleryImage">
+                                <span>Data Collection Tutorial</span>
                             </a>
                         </div>
+                        <!--
+                        <div class="galleryThumb pp">
+                            <a href="/data_vis.html">
+                                <img src="Assets/images/f1-1.png" alt="F1 Data Visualization" class="galleryImage">
+                                <span>F1 Data Visualization</span>
+                            </a>
+                        </div>
+                        -->
                     </div>
-
                     <div class="galleryColumn"> 
                         <div class="galleryThumb cp">
-                            <a href="/project.html">
-                                <img src="media_images_true_kiel_plot_3_ce22b024446a6b3a2f0e.png" alt="Astro Bossinaries" class="galleryImage">
-                                <span>Bossinaries</span>
+                            <a href="/project_bossinaries.html">
+                                <img src="Assets/images/bossinaries-thumbnail.png" alt="Research Project: PheonixNet" class="galleryImage">
+                                <span>Research Project: PheonixNet</span>
                             </a>
                         </div>
                         <div class="galleryThumb tt">
-                            <a href="/project.html">
-                                <img src="Screenshot 2023-05-25 203812.png" alt="Title IX Training" class="galleryImage">
+                            <a href="/project_deia.html">
+                                <img src="Assets/images/Screenshot 2023-05-25 203812.png" alt="Title IX Training" class="galleryImage">
                                 <span>Title IX Training</span>
                             </a>
                         </div>
                         <div class="galleryThumb pp">
-                            <a href="/project.html">
-                                <img src="life_is_bad_minigames.png" alt="Game Jam" class="galleryImage">
-                                <span>Game Jam</span>
+                            <a href="/project_life_is_bad.html">
+                                <img src="Assets/images/life-is-bad.png" alt="Game Jam: Life is Bad" class="galleryImage">
+                                <span>Game Jam: Life is Bad</span>
                             </a>
                         </div>
                     </div>
 
                     <div class="galleryColumn"> 
                         <div class="galleryThumb cp">
-                            <a href="/project.html">
-                                <img src="1hhp_lk_ball_wtd_avg.png" alt="ml_bio" class="galleryImage">
-                                <span>ml_bio</span>
+                            <a href="/project_bio.html">
+                                <img src="Assets/images/Screenshot 2023-07-28 222924.png" alt="Poster Session: ml_bio" class="galleryImage">
+                                <span>Poster Session: ml_bio</span>
                             </a>
                         </div>
                         <div class="galleryThumb tt">
                             <a href="/project.html">
-                                <img src="Screenshot 2023-05-25 203926.png" alt="Ethics in ML Training" class="galleryImage">
+                                <img src="Assets/images/Screenshot 2023-05-25 203926.png" alt="Ethics in ML Training" class="galleryImage">
                                 <span>Ethics in ML Training</span>
                             </a>
                         </div>
                         <div class="galleryThumb pp">
-                            <a href="/project.html">
-                                <img src="3amhungry.png" alt="Game Jam" class="galleryImage">
-                                <span>Game Jam</span>
+                            <a href="/project_3am.html">
+                                <img src="Assets/images/raccoon-1.png" alt="Game Jam: It's 3am and You're Hungry" class="galleryImage">
+                                <span>Game Jam: It's 3am and You're Hungry</span>
                             </a>
                         </div>
                     </div>
 
                     <div class="galleryColumn"> 
                         <div class="galleryThumb pp">
-                            <a href="/project.html">
-                                <img src="eurobeat.png" alt="Game Jam" class="galleryImage">
-                                <span>Game Jam</span>
+                            <a href="/project_eurobeat.html">
+                                <img src="Assets/images/eurobeat-1.png" alt="Game Jam: EuroBeat" class="galleryImage">
+                                <span>Game Jam: EuroBeat</span>
+                            </a>
+                        </div>
+                        <div class="galleryThumb cp">
+                            <a href="/project-rosenet.html">
+                                <img src="Assets/images/Screenshot 2023-07-28 222549.png" alt="ACM-BCB Publication" class="galleryImage">
+                                <span>ACM-BCB Publication: RoseNet</span>
                             </a>
                         </div>
                     </div>
                 </div>
 			</div>
 		</div>
+        </div>
         <br> <br>
         <footer>
             <p>Author: Sarah Coffland</p>
-            <p><a href="mailto:hege@example.com">cofflas@example.com</a></p>
+            <!-- <p><a href="mailto:hege@example.com">cofflas@example.com</a></p> -->
         </footer>
     </body>
     
